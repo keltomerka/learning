@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    padding: 70px 0;
+    display: flex;
+    justify-content: space-around;
+    background: #FFF;
+    align-items: center;
+}
+.facebook-header{
+    margin-right: 21px;
+}
+.info-section{
+    background: #FAC960;
+    color: #8A6D2F;
+    text-align: center;
+}
+.singUp{
+    padding: 80px 0;
+    font-size: 44px;
+}
+.singUp p{
+    margin: 0;
+}
+.singUp form{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.emailAdress{
+    border-radius: 2px 0px 0px 2px;
+    background: #FFF;
+    width: 560px;
+    height: 54px;
+    border: none;
+    margin-right: 6px;
+    font-size: 25px;
+}
+.emailAdress::placeholder{
+    color: #999;
+    padding-left: 36px;
+    font-size: 25px;
+}
+.getInvite{
+    width: 240px;
+    height: 54px;
+    border-radius: 0px 2px 2px 0px;
+    background: #A8863D;
+    border: none;
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+}
+.graybck{
+    background: #F2F2F2;
+    color: rgba(0, 0, 0, 0.40);
+    text-align: center;
+    line-height: 30px;
+    font-size: 23px;
+}
+.second-section{
+    padding: 65px 0;
+}
+.graybck h4, p{
+    text-align: center;
+}
+.graybck h4{
+    font-size: 37px;
+    color: rgba(0, 0, 0, 0.56);
+}
+.graybck p{
+    width: 819px;
+    margin: 0 auto;
+}
+.icon-section{
+    text-align: center;
+    margin-top: 56px;
+}
+.mobileAccess{
+    background: white;
+    padding: 70px 0 20px 0;
+}
+.btn-section{
+    padding: 30px 0 100px 0;
+}
+.btn-section h3{
+    font-size: 37px;
+    font-weight: 400;
+}
+.btn-section p{
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.40);
+}
+.btn{
+    margin: 0 auto;
+}
+.btn button{
+    margin-top: 30px;
+    width: 61px;
+    height: 22px;
+    border-radius: 3px;
+    border: 1px solid #758696;
+    background: #FFF;
+}
+footer{
+    padding: 60px 0;
+    text-align: center;
+}
+footer>div{
+    margin-bottom: 24px;
+}
+.footer-icons{
+    display: flex;
+    justify-content: center;
+    column-gap: 22px;
+    color: black;
+    margin: 0;
+}
+ 
